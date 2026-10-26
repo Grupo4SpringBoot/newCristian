@@ -66,5 +66,5 @@ public class Contacto {
         // provocamos fallo
         //return email.contains("@") && email.contains(".");
     }
-
+// Concatenamos los tres datos con los separadores que queremos entre ellos.
 }
