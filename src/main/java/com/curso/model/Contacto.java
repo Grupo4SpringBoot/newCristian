@@ -62,7 +62,7 @@ public class Contacto {
     public boolean emailValido() {
         // contains() devuelve true si el texto contiene la cadena indicada.
         // El operador && exige que se cumplan las tres condiciones a la vez.
-        return email.contains("@") && email.contains(".") && !email.contains(" ");
+        retun email.contains("@") && email.contains(".") && !email.contains(" ");
         // provocamos fallo
         //return email.contains("@") && email.contains(".");
     }
