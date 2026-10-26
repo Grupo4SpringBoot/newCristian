@@ -23,7 +23,7 @@ pipeline {
     // coincidir letra por letra con ellos; si no coinciden, Jenkins no podrá encontrar la herramienta.
     tools {
         jdk 'jdk-21'
-        maven 'maven-3.9.16'
+        maven '3.9.16'
     }
 
     stages {
